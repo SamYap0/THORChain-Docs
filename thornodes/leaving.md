@@ -8,12 +8,13 @@ description: How to leave THORChain
 
 Approximately every 2 1/2 days (43,200 blocks or [`CHURNINTERVAL`](https://thornode.ninerealms.com/thorchain/mimir)) the system will churn its vaults and nodes.
 
-Outgoing:
+Outgoing nodes consist of:
 
 1. Nodes wishing to leave, and/or
 2. The most unreliable node(s), and/or
 3. The oldest node
-4. But a maximum of 1/3rd the network
+
+Note: Just less than 1/3 of the active network can be churned out in a single churn event. The network will always maintain supermajority plus one node for Byzantine Fault Tolerance (BFT) security.
 
 Incoming:
 
@@ -91,7 +92,7 @@ _🔥 Commence destroying your node 🔥_
 
 You should complete this checklist before you do the next step:
 
-1. Have you sent a final **LEAVE** transaction and have you received your BOND back - ie 1,000,000 RUNE, and can your account for any slash points or rewards?
+1. Have you sent a final **LEAVE** transaction and have you received your BOND back - ie 1,000,000 RUNE, and can you account for any slash points or rewards?
 
 If yes, then proceed:
 

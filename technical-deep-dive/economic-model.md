@@ -49,36 +49,6 @@ $$
 blockReward = \frac{ \frac{reserve}{emissionCurve}}{blocksPerYear} = \frac{ \frac{180,000,000}{8}}{5256000} = 4.28
 $$
 
-If the reserve has 180m RUNE, a single block emits ~4.28 RUNE from the Reserve. Half of that goes to node operators, the rest to liquidity providers. The exact distribution is controlled by the Incentive Pendulum.
-
-The emission curve is designed to start at ~30% APR and trend toward ~2% after 10 years. At that point, most revenue comes from fees rather than block rewards.
-
 {% hint style="info" %}
-The [emission curve](https://dev.thorchain.org/mimir.html#economics) is currently set to 10, meaning block rewards are minimal, approx. 720 RUNE per year.
+The [emission curve](https://dev.thorchain.org/mimir.html#economics) is currently set to 100,000, meaning block rewards are minimal, approx. 720 RUNE per year.
 {% endhint %}
-
-## Reserve Inflows and Outflows
-
-### Reserve Inflows
-
-1. **Native Transaction Fee**: A 0.02 RUNE fee applies to transactions made on the THORChain blockchain (RUNE, Synthetic Assets, Secure Assets). This is separate from outbound fees, which only apply to external-chain transactions.
-2. **Outbound Fees**: Fees collected from all outbound transactions, varying by asset type:
-   - **Native Outbound Transaction Fee**: Fixed 0.02 RUNE on RUNE and native asset transactions.
-   - **Layer 1 Outbound Fee**: For external-chain assets (e.g., BTC, ETH), this bundles the external gas cost, gas pool swap fee, and THORChain network fee into a single charge. Fee levels are determined by the chain’s gas rate and [`dynamic_multiplier_basis_points`](https://thornode.ninerealms.com/thorchain/outbound_fees).
-3. **Withdrawal of Reserve POL**: Occurs when RUNEPool additions replace Reserve-backed POL or when POL requirements are reduced.
-4. **Slashing Income**: From node bond slashes, particularly for keygen failures or other operational breaches.
-5. **Staged Pool Costs**: Deductions from the staged pool to cover churn-related costs. Controlled by the Mimir variable [`StagedPoolCost`](https://dev.thorchain.org/mimir.html#economics).
-
-### Reserve Outflows
-
-1. **Gas Reimbursement**:
-   - **Churn Gas Reimbursements**: Covers migration gas costs during vault churns. Reimbursed by the Reserve and factored into outbound fee adjustments.
-   - **Non-Churn Gas Reimbursements**: Reimburses gas for external-chain outbound transactions. Over time, total outbound fees collected for a given coin are designed to equal total reimbursements for that coin.
-2. **Reserve Adding to POL**: If undeployed RUNE in RUNEPool is insufficient to cover a withdrawal, the Reserve contributes. If RUNEPool has enough, no Reserve contribution is needed.
-3. **Block Rewards**: Paid to node operators and liquidity providers.
-
-### Additional Points
-
-- Gas reimbursements and outbound fees generally balance each other over time.
-- POL funding prioritises RUNEPool, with the Reserve acting only as fallback.
-- System income (swap fees) is distributed immediately to developers, burns, pools, and nodes, rather than being retained by the Reserve.
