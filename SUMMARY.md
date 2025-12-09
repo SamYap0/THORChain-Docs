@@ -37,8 +37,7 @@
   - [Bifrost, TSS and Vaults](technology/bifrost-tss-and-vaults.md)
   - [Midgard](technology/midgard.md)
   - [Cosmos SDK](technology/cosmos-sdk.md)
-  - [CosmWasm](technology/cosmwasm.md)
-  - [IBC](technology/ibc.md)
+  - [CosmWasm](technology/cosmwasm.md)  
   - [THORChain & Cosmos](technology/app-layer-bridge-assets.md)
 
 ## THORNodes

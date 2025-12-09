@@ -4,7 +4,7 @@ description: Asset Type to Integrate into the App Layer
 
 # Secured Assets
 
-Secure Assets allow L1 tokens to be deposited to THORChain, creating a new native asset, which can be transferred between accounts, over IBC and integrated with CosmWasm smart contracts using standard Cosmos SDK messages. They also replace [Trade Assets](trade-assets.md).
+Secure Assets allow L1 tokens to be deposited to THORChain, creating a new native asset, which can be transferred between accounts and integrated with CosmWasm smart contracts using standard Cosmos SDK messages. They also replace [Trade Assets](trade-assets.md).
 
 {% hint style="info" %}
 See the [Dev Docs ](https://dev.thorchain.org/concepts/secured-assets.html)for a more detailed description.\
