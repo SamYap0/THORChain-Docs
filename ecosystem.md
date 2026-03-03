@@ -188,7 +188,7 @@ Russian: [https://t.me/ThorchainRussian](https://t.me/ThorchainRussian)
 
 Chinese: [https://t.me/thorchain_chinese](https://t.me/thorchain_chinese)
 
-Italian: [https://t.me/+2h7NgzNJ4KIxNzFk](https://t.me/+2h7NgzNJ4KIxNzFk)
+Italian: [https://t.me/THORChain_Italy](https://t.me/THORChain_Italy)
 
 Portuguese: [https://t.me/thorchainportuguese](https://t.me/thorchainportuguese)
 
