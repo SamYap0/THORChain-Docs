@@ -18,7 +18,7 @@ All the following are community-run resources. There are no "official" channels.
 
 **Security:** [**Layers of Security**](https://medium.com/thorchain/thorchains-layers-of-security-e308d537acf1) **|** [**Hardening the Protocol**](https://medium.com/thorchain/hardening-the-thorchain-protocol-f80164de7685)**|** [**Halt Controls**](https://dev.thorchain.org/concepts/network-halts.html)
 
-**Block Explorers**: [**RuneScan**](https://runescan.io) **|** [**THORChain.net**](https://thorchain.net/#/txs) **|** [**THORChain Tx Tracker**](https://track.ninerealms.com/) **|** [**xScanner**](https://www.xscanner.org/)
+**Block Explorers**: [**RuneScan**](https://runescan.io) **|** [**THORChain.net**](https://thorchain.net/#/txs) **|** [**THORChain Tx Tracker**](https://track.thorchain.org/) **|** [**xScanner**](https://www.xscanner.org/)
 
 **Community:** [**Community Discord**](https://discord.com/invite/c4EhDZdFMA) **|** [**Community Telegram**](https://t.me/thorchain_org) **|** [**X**](https://x.com/thorchain)&#x20;
 
@@ -112,7 +112,7 @@ Below is a list of active THORChain community projects. If you would like to be 
 
 [**THORCharts**](https://thorcharts.org/) - Key stats and figures related to core THORChain operations
 
-[**Nine Realms Dashboard**](https://dashboards.ninerealms.com/)
+[**Nine Realms Dashboard**](https://dashboards.thorchain.org/)
 
 [**THORYield**](https://thoryield.com/) - View your added liquidity on THORChain
 
@@ -132,13 +132,13 @@ Below is a list of active THORChain community projects. If you would like to be 
 
 [**THORmon**](https://thorchain.network/)- Detailed THORNode Dashboard
 
-[**Constants**](https://thornode.ninerealms.com/thorchain/constants)- Current THORChain Constants
+[**Constants**](https://gateway.liquify.com/chain/thorchain_api/thorchain/constants)- Current THORChain Constants
 
-[**Mimir**](https://thornode.ninerealms.com/thorchain/mimir) - Overrides for Constants
+[**Mimir**](https://gateway.liquify.com/chain/thorchain_api/thorchain/mimir) - Overrides for Constants
 
-[**Midgard Docs**](https://midgard.ninerealms.com/v2/doc) - Documentation for Midgard API to query THORChain.
+[**Midgard Docs**](https://gateway.liquify.com/chain/thorchain_midgard/v2/doc) - Documentation for Midgard API to query THORChain.
 
-[**Thornode Docs**](https://thornode.ninerealms.com/thorchain/doc/) - Documentation for Thornode API to query Thornode.
+[**Thornode Docs**](https://gateway.liquify.com/chain/thorchain_api/thorchain/doc/) - Documentation for Thornode API to query Thornode.
 
 [**RuneScan Explorer**](https://runescan.io)- THORChain Block Explorer
 

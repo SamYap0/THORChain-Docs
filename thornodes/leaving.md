@@ -6,7 +6,7 @@ description: How to leave THORChain
 
 ## Overview
 
-Approximately every 2 1/2 days (43,200 blocks or [`CHURNINTERVAL`](https://thornode.ninerealms.com/thorchain/mimir)) the system will churn its vaults and nodes.
+Approximately every 2 1/2 days (43,200 blocks or [`CHURNINTERVAL`](https://gateway.liquify.com/chain/thorchain_api/thorchain/mimir)) the system will churn its vaults and nodes.
 
 Outgoing nodes consist of:
 
@@ -18,7 +18,7 @@ Note: Just less than 1/3 of the active network can be churned out in a single ch
 
 Incoming:
 
-1. The node(s) with the highest bond (2 or [`NUMBEROFNEWNODESPERCHURN`](https://thornode.ninerealms.com/thorchain/mimir)).
+1. The node(s) with the highest bond (2 or [`NUMBEROFNEWNODESPERCHURN`](https://gateway.liquify.com/chain/thorchain_api/thorchain/mimir)).
 
 Churned out nodes will be put in standby, but their bond will not automatically be returned. They will be credited any earned rewards in their last session. If they do nothing, but keep their cluster online and up-to-date with the latest THORNode version, they will be eventually churn back in.
 

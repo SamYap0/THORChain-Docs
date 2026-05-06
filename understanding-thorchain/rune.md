@@ -123,5 +123,5 @@ RUNE's price has two factors: a deterministic value based on the liquidity withi
 
 - [THORChain Tokenomics Article](https://medium.com/thorchain/thorchain-tokenomics-what-is-rune-52d339633260)
 - [Under the Hood: Rune Supply](https://thorchain-community.medium.com/under-the-hood-rune-supply-d30772fdfbaf)
-- [Current Supply Data](https://dashboards.ninerealms.com/#lending)
+- [Current Supply Data](https://dashboards.thorchain.org/)
 - [THORChain Tokenomics Dashboard](https://flipsidecrypto.xyz/BlockTracker/thorchain-tokenomics-g7ZOP_)

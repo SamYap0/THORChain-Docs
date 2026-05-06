@@ -30,32 +30,19 @@ mkdir -p /opt/thornode/.thornode/config
 
 ### Genesis
 
-For joining the network, the correct genesis file is required
+For joining the network, the correct genesis file is required.
 
-```sh
-curl https://storage.googleapis.com/public-snapshots-ninerealms/genesis/17562000.json -o /opt/thornode/.thornode/config/genesis.json
-```
+{% hint style="warning" %}
+Nine Realms infrastructure has been decommissioned. Refer to the upstream [node-launcher documentation](https://gitlab.com/thorchain/devops/node-launcher/-/tree/master/docs) for the current genesis file source.
+{% endhint %}
 
 ### Sync
 
-The fastest way to join the network is by downloading a current snapshot and sync from it.
+The fastest way to join the network is by downloading a current snapshot and syncing from it.
 
-```sh
-# get latest snapshot
-FILENAME=$(curl -s "https://snapshots.ninerealms.com/snapshots?prefix=thornode" | grep -Eo "thornode/[0-9]+.tar.gz" | sort -n | tail -n 1 | cut -d "/" -f 2)
-
-# download snapshot
-aria2c --split=16 --max-concurrent-downloads=16 --max-connection-per-server=16 --continue --min-split-size=100M -d /opt/thornode/.thornode -o $FILENAME "https://snapshots.ninerealms.com/snapshots/thornode/${FILENAME}"
-
-# ensure no chain data exists
-rm -rf /opt/thornode/.thornode/data/{*.db,snapshot,cs.wal}
-
-# extract snapshot
-pv /opt/thornode/.thornode/$FILENAME | tar -xzf - -C /opt/thornode/.thornode --exclude "*_state.json"
-
-# cleanup snapshot
-rm -rf /opt/thornode/.thornode/$FILENAME
-```
+{% hint style="warning" %}
+Nine Realms infrastructure has been decommissioned. Refer to the upstream [Thornode Snapshot Recovery and Storage Management](https://gitlab.com/thorchain/devops/node-launcher/-/blob/master/docs/Thornode-Snapshot-Recovery-and-Storage-Management.md) doc for the current snapshot source and recovery procedure.
+{% endhint %}
 
 ## Start
 
