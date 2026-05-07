@@ -112,7 +112,7 @@ Below is a list of active THORChain community projects. If you would like to be 
 
 [**THORCharts**](https://thorcharts.org/) - Key stats and figures related to core THORChain operations
 
-[**Nine Realms Dashboard**](https://dashboards.thorchain.org/)
+[**THORChain Dashboard**](https://dashboards.thorchain.org/)
 
 [**THORYield**](https://thoryield.com/) - View your added liquidity on THORChain
 
