@@ -28,7 +28,7 @@ Directly on THORChain by swapping any supported asset for RUNE or exchanges like
 
 ### **What is the circulating supply of RUNE?**
 
-Approx. 330M with a max of 500M. See [https://runescan.io/addresses](https://runescan.io/addresses/) for a breakdown of the RUNE supply.
+Approx. 360M. See [https://runescan.io/addresses](https://runescan.io/addresses/) for a breakdown of the RUNE supply.
 
 ### **What is the inflation rate of RUNE?**
 
