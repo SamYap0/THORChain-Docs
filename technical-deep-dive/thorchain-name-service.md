@@ -4,7 +4,7 @@ description: How THORNames (TNS) work
 
 # THORChain Name Service
 
-Website: [https://thorname.com/](https://thorname.com/)
+Website: [https://thorname.thorchain.org/](https://thorname.thorchain.org/)
 
 ## Overview
 
