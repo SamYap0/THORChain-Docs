@@ -58,7 +58,7 @@ The outbound fees that THORChain levies is 1.5x t0 3x the “fast” fee recomme
 - See [ADR 008: Implement a Dynamic Outbound Fee Multiplier](https://dev.thorchain.org/architecture/adr-008-implement-dynamic-outbound-fee-multiplier.html)
 - See [Technical Deep Dive](../technical-deep-dive/).
 
-The outbound fees that THORChain levies could be up to 2.5x the “fast” fee recommended for the respective blockchain.
+The outbound fees that THORChain levies could be up to 3x the "fast" fee recommended for the respective blockchain.
 
 - See [Technical Deep Dive](../technical-deep-dive/).
 - Standard Fee [inbound address](https://gateway.liquify.com/chain/thorchain_api/thorchain/inbound_addresses) endpoint.
